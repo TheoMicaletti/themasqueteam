@@ -1,0 +1,15 @@
+form {
+    background-color: #fff9f3;
+}
+
+.messageRecycle {
+    display: flex;
+    justify-content: baseline;
+    background-color: #fff9f3;
+}
+
+div {
+    padding: 10px;
+    display: flex;
+    justify-content: center;    
+}
