@@ -1,0 +1,11 @@
+@import url(index.css);
+@import url(gallery.css);
+@import url(form.css);
+@import url(rse.css);
+
+:root{
+    --primary-color: ;
+    --secondary-color: ;
+    --dark: ;
+    --light: ; 
+}
