@@ -1,6 +1,10 @@
+@import 'navbar.css';
+@import 'footer.css';
+
 html, body {
   margin: 0;
   height: 100%;
+  background-color: hsl(32, 41%, 92%);
 }
 
 * {
@@ -58,7 +62,11 @@ p {
   display: grid;
   grid-template-columns: repeat(auto-fill, 300px);
   justify-content: center;
+<<<<<<< HEAD
   grid-gap: 30px;
+=======
+  grid-gap: 80px;
+>>>>>>> main
   padding-bottom: 80px;
 }
 
@@ -72,6 +80,7 @@ p {
 
 .grid-item img {
   
+<<<<<<< HEAD
   border-radius: 15px;
   border-bottom: solid 6px #8AC1C0;
   border-right: solid 6px #8AC1C0;
@@ -100,6 +109,36 @@ p {
   border-radius: 15px;
   border-bottom: solid 6px #8AC1C0;
   border-right: solid 6px #8AC1C0;
+=======
+  border-radius: 15px;
+  border-bottom: solid 6px #8AC1C0;
+  border-right: solid 6px #8AC1C0;
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.team-listing {
+  position: relative;
+}
+
+
+.team-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  border-radius: 15px;
+  border-bottom: solid 6px #8AC1C0;
+  border-right: solid 6px #8AC1C0;
+>>>>>>> main
   color: white;
   display: flex;
   align-items: center;

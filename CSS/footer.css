@@ -14,7 +14,11 @@
     border-top: solid 5px #C9DEDE;
   }
   
+<<<<<<< HEAD
   .ref {
+=======
+  .logo-list {
+>>>>>>> main
     display: flex;
     flex-direction: row;
     list-style-type: none;
