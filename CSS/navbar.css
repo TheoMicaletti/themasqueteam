@@ -16,7 +16,13 @@
     padding: 1em;
     border-bottom: solid 5px #C9DEDE;
   }
-  
+
+.link-list {
+  padding: 30px;
+  font-size: 20px;
+  color: #FFF;
+  text-decoration: none;
+}  
   .menu {
     display: flex;
     flex-direction: row;
@@ -79,7 +85,7 @@
     transform: rotate(-405deg);
   }
   
-  @media (max-width: 920px) {
+  @media (max-width: 800px) {
     .menu-button-container {
       display: flex;
     }
@@ -114,8 +120,9 @@
       width: 100%;
       color: rgb(255, 255, 255);
       background-color: #222;
-  
     }
+
+    
     .menu > li:not(:last-child) {
       border-bottom: 1px solid #444;
     }

@@ -1,0 +1,50 @@
+.footer {
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4D7D7C;
+    color: #FFF;
+    height: 60px;
+    padding: 1em;
+    border-top: solid 5px #C9DEDE;
+  }
+  
+  .logo-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .ref > li {
+    margin: 0 1rem;
+  }
+
+  .auteur {
+      font-size: 25px;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0px;
+  }
+  
+
+.logo .logo-img {
+    margin-left: 60px;
+    padding-top: 8px;
+}
+
+  @media (max-width: 800px) {
+      .footer{
+          display: none;
+      }
+  }

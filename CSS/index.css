@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
   height: 100%;
+  background-color: #FFF9F3;
 }
 
 * {
@@ -20,7 +21,7 @@ h2 {
 h3 {
   vertical-align: center;
   text-align: left;
-  margin-top: 400px;
+  margin-top: 480px;
   margin-left: 45px;
   font-size: 50px;
   color: #3D3D3D;
@@ -36,11 +37,11 @@ p {
   color: #3D3D3D;
 }
 
-img {
+.slider img {
   width: 90%;
   max-width: 800px;
-  height: 300px;
-  margin: auto;
+  height: 350px;
+  margin: 30px auto;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -50,7 +51,6 @@ img {
   border-right: solid 6px #8AC1C0;
 }
 
-
 .grille {
   max-width: 1300px;
   width: 90%;
@@ -59,13 +59,71 @@ img {
   display: grid;
   grid-template-columns: repeat(auto-fill, 300px);
   justify-content: center;
-  grid-gap: 30px;
+  grid-gap: 80px;
+  padding-bottom: 80px;
 }
+
 .grid-item {
-  width: 300px;
-  height: 200px;
-  background-color: #4D7D7C;
+  line-height: 0;
+  overflow: hidden;
   border-radius: 15px;
   border-bottom: solid 6px #8AC1C0;
   border-right: solid 6px #8AC1C0;
+}
+
+.grid-item img {
+  
+  border-radius: 15px;
+  border-bottom: solid 6px #8AC1C0;
+  border-right: solid 6px #8AC1C0;
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.team-listing {
+  position: relative;
+}
+
+
+.team-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  border-radius: 15px;
+  border-bottom: solid 6px #8AC1C0;
+  border-right: solid 6px #8AC1C0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-listing:hover .team-title {
+  opacity: 1;
+  border-radius: 15px;
+}
+
+.team-listing:hover .grid-item img {
+  filter: blur(2px);
+  border-radius: 15px;
+}
+
+@media (hover: none) { 
+  .team-title {
+    opacity: 1;
+    border-radius: 15px;
+  }
+  .grid-item img {
+    filter: blur(2px);
+    border-radius: 15px;
+  }
 }
