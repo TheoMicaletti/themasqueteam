@@ -1,7 +1,12 @@
+@import 'navbar.css';
+@import 'footer.css';
 @import url(https://fonts.googleapis.com/css?family=Lato:300);
+
 * {
-  box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
 }
+
 html {
   line-height: 1.8;
   font-size: 13px;

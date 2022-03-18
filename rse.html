@@ -5,14 +5,32 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>RSE</title>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/rse.css">
     </head>
     <body>
-        <header>
-            <nav>
-
-            </nav>
-        </header>
+        <section class="top-nav">
+            <div class="titleNav">
+                the <b>m</b>asque
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <ul class="menu">
+                <a href="index.html" class="link-list">
+                    <li>Accueil</li>
+                </a>
+                <a href="gallery.html" class="link-list">
+                    <li>Gallerie</li>
+                </a> 
+                <a href="rse.html" class="link-list">
+                    <li>Contexte</li>
+                </a>
+                <a href="form.html" class="link-list">
+                    <li>À vos idées !</li>
+                </a>
+            </ul>
+        </section>
         <main>
 
             <div class="panel">
@@ -110,6 +128,28 @@
                 </div>
             </div>
         </main>
+        <section class="footer">
+            <div class="auteur">
+                ©Les Viticodeurs
+            </div>
+            <div class="logo">
+                <article id="fb" class="logo-list">
+                    <a href="https://www.facebook.com" class="logo-img">
+                        <img width="40" height="40" src="assets/facebook.png" alt="facebook" href="facebook.com">
+                    </a>
+                </article>
+                <article id="linkedin" class="logo-list">
+                    <a href="https://www.twitter.com" class="logo-img">
+                        <img width="40" height="40" src="assets/linkedin.png" alt="linkedin" href="twitter.com">
+                    </a>
+                </article>
+                <article id="insta" class="logo-list">
+                    <a href="https://www.instagram.com" class="logo-img">
+                        <img width="40" height="40" src="assets/instagram.png" alt="instagram" href="instagram.com">
+                    </a>
+                </article>
+            </div>
+            </section>
         <script src="script.js"> </script>
     </body>
 </html>
