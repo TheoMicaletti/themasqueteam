@@ -1,0 +1,86 @@
+@import 'navbar.css';
+@import 'footer.css';
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+* {
+    font-family: 'roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+  line-height: 1.8;
+  font-size: 13px;
+  background: #000;
+  font-family: Lato, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+.panel {
+  min-height: 90vh;
+  margin: 0px 0px 20px 0px;  background: url(https://i.postimg.cc/vBFCXTbN/mask20-masque-chirurgical-masque-2-xl.jpg) no-repeat 30% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  padding: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+  .panel:nth-child(2) {
+    background-image: url(https://www.gannett-cdn.com/-mm-/faeaa5cb7a7bd23b0b25ab04272d2f3c1449d03f/c=1-0-5615-3158/local/-/media/2017/09/18/AsburyPark/B9329299411Z.1_20170918075012_000_G3QJL8J1F.1-0.jpg?width=3200&height=1680&fit=crop);
+  }
+  .panel:nth-child(3) {
+    background-image: url(https://www.baindebretagne.fr/medias/sites/2/2020/11/masque-environnement.jpg);
+  }
+  .panel:nth-child(4) {
+    background-image: url(https://i.postimg.cc/v8Vqmb7P/2cd2ngw.jpg);
+  }
+  .panel:nth-child(5) {
+    background-image: url(https://www.ville-grande-synthe.fr/wp-content/uploads/2021/02/masque.jpg);
+  }
+  .panel:nth-child(6) {
+    background-image: url(https://gurumed-oxn8moh.netdna-ssl.com/wp-content/uploads/2020/12/microplastique-1-20.jpg);
+  }
+  .panel:nth-child(7) {
+    background-image: url(https://i.postimg.cc/zvWZ8hp5/18h.jpg);
+  }
+  .panel:nth-child(8) {
+    background-image: url(https://i.postimg.cc/Nf6qn15k/36h.jpg);
+  }
+  .panel:nth-child(9) {
+    background-image: url(https://s3files.core77.com/blog/images/859574_81_82312_pf9MuSVfh.jpg);
+  }
+  .panel:nth-child(10) {
+    background-image: url(https://france3-regions.francetvinfo.fr/image/x_8rkGnLTT-6aBMDrPXRepAzBRc/600x400/regions/2021/04/30/608ba7f9eca4d_maxnewsworldfive146185-5295446.jpg);
+  }
+  .panel:nth-child(11) {
+    background-image: url();
+  }
+
+.content {
+  max-width: 400px;
+  text-align: center;
+  background-color: #0000008f;
+  padding: 2em;
+  background: rgba(#000,.8);
+  border: 1px dashed #888;
+  box-shadow: 0 0 0 10px rgba(#000,.8);
+  color: #fff;
+}
+
+.content:first-child {
+    margin-top: 0;
+  }
+.content:last-child {
+    margin-bottom: 0;
+  }
+
+  h1, h2 {
+    padding-bottom: 1em;
+    border-bottom: 1px dashed #888;
+  }
